@@ -4,43 +4,39 @@
             <div class="swiper-container text-center"> 
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
+                      <div class="timestamp"><span class="date">01/2013</span></div>
+                      <div class="status"><span>Enrolled into high school.</span></div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
+                      <div class="timestamp"><span class="date">11/2017</span></div>
+                      <div class="status"><span>Matriculated + part time catering work.</span></div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
+                      <div class="timestamp"><span class="date">01/2018</span></div>
+                      <div class="status"><span>Become a full time general worker.</span></div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
+                      <div class="timestamp"><span class="date">12/2019</span></div>
+                      <div class="status"><span>Still doing general labour.</span></div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
+                      <div class="timestamp"><span class="date">06/2020</span></div>
+                      <div class="status"><span>Enrolled at CodeSpace.</span></div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
+                      <div class="timestamp"><span class="date">01/2021</span></div>
+                      <div class="status"><span>Uber Eats driver.</span></div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
+                      <div class="timestamp"><span class="date">04/2021</span></div>
+                      <div class="status"><span>Developed microapps for Ayoba.</span></div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="timestamp"><span class="date">12.07.2019</span></div>
-                      <div class="status"><span>Work</span></div>
+                      <div class="timestamp"><span class="date">09/2021</span></div>
+                      <div class="status"><span>Enrolled at Life Choices</span></div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination"> </div>
             </div>
        </section>
 </div>
@@ -57,14 +53,15 @@ export default {
   background-color: gray;
   height: 90vh;
 }
-h1{
+*{
   color: white;
 }
 .time-line-box {
-  height: 100px; 
+  margin-top:100px;
+  height: 300px; 
   padding: 100px 0;
   width: 100%;
-  background-color: #dadefe;
+  background-color: black;
 }
 
 .time-line-box .timeline {
@@ -87,7 +84,7 @@ h1{
   padding: 0px 10px;
   display: flex;
   justify-content: center;
-  border-top: 3px solid #455EFC;
+  border-top: 3px solid gray;
   position: relative;
   transition: all 200ms ease-in;
 }
@@ -98,9 +95,9 @@ h1{
   content: '';
   width: 12px;
   height: 12px;
-  background-color: #455EFC;
+  background-color: gray;
   border-radius: 12px;
-  border: 2px solid #455EFC;
+  border: 2px solid red;
   position: absolute;
   left: 50%;
   top: 0%;
@@ -126,7 +123,6 @@ h1{
    
 }
 .swiper-container::-webkit-scrollbar{
-
   height: 10px;
 }
 .swiper-container::-webkit-scrollbar-thumb{

@@ -50,4 +50,7 @@ export default {
 .heading{
   padding-top:50px;
 }
+*{
+  font-family: 'PT Serif', serif;
+}
 </style>
