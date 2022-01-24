@@ -16,22 +16,22 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#1">About</a>
+            <a class="nav-link" href="#one">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#2">Experience</a>
+            <a class="nav-link" href="#two">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#3">Skills</a>
+            <a class="nav-link" href="#three">Skills</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="#4">Projects</a>
+            <a class="nav-link" href="#four">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#5">Testimonials</a>
+            <a class="nav-link" href="#five">Testimonials</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="#6">Contact</a>
+            <a class="nav-link" href="#six">Contact</a>
           </li>
         </ul>
        

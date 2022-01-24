@@ -1,5 +1,5 @@
 <template>
-<div id="6">
+<div id="six">
  <h1 class="heading">Contact</h1>
 </div>
  
