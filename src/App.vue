@@ -1,18 +1,21 @@
 <template>
  <Navbar/>
  <Intro/>
+<About/>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
-import Intro from './components/Intro.vue'
+import Intro from './components/Intro.vue';
+import About from './components/About.vue'
 
 
 export default {
   name: 'App',
   components: {
    Navbar,
-   Intro
+   Intro,
+   About
   }
 }
 </script>
