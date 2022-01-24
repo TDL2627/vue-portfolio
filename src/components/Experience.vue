@@ -1,6 +1,49 @@
 <template>
-<div id="two">  <h1 class="heading">Experience</h1></div>
-
+<div id="two">  <h1 class="heading">My Experience</h1>
+ <section class="time-line-box">
+            <div class="swiper-container text-center"> 
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="timestamp"><span class="date">12.07.2019</span></div>
+                      <div class="status"><span>Work</span></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+       </section>
+</div>
 </template>
 
 <script>
@@ -10,12 +53,90 @@ export default {
 </script>
 
 <style scoped>
-div{
+#two{
   background-color: gray;
   height: 90vh;
 }
 h1{
   color: white;
 }
+.time-line-box {
+  height: 100px; 
+  padding: 100px 0;
+  width: 100%;
+  background-color: #dadefe;
+}
 
+.time-line-box .timeline {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  text-align: center;
+}
+
+.time-line-box .timestamp {
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 0px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-line-box .status {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid #455EFC;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+.time-line-box .status span {
+  padding-top: 8px;
+}
+.time-line-box .status span:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #455EFC;
+  border-radius: 12px;
+  border: 2px solid #455EFC;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all 200ms ease-in;
+}
+
+.swiper-container {
+  width: 95%; 
+  margin: auto;
+  overflow-y: auto;
+}
+.swiper-wrapper{
+  display: inline-flex;
+  flex-direction: row;
+  overflow-y:auto;
+  justify-content: center;
+}
+.swiper-container::-webkit-scrollbar-track{
+   background:#a8a8a8b6;
+   
+}
+.swiper-container::-webkit-scrollbar{
+
+  height: 10px;
+}
+.swiper-container::-webkit-scrollbar-thumb{
+   background: #4F4F4F !important;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 12px;
+  width: 200px;
+  height: 100%;
+  position: relative;
+}
 </style>

@@ -21,7 +21,7 @@
             <h5>Ashley Kannemeyer</h5>
             <hr>
             <h5>Email :</h5>
-            <h5 class="equaled1" id="mail1">ashleykannemyer2@gmail.com</h5>
+            <h5>ashleykannemyer2@gmail.com</h5>
             <hr>
             <h5>Age :</h5>
             <h5>21</h5>
