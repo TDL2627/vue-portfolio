@@ -11,7 +11,7 @@
               <h5 class="note-sub">90%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 90%; border-radius: 25px; background-color:#e9c46a;">GREAT</div>
+                  style="height: 25px; width: 90%; border-radius: 25px; background-color:rgb(255, 7, 7);">GREAT</div>
               </div>
             </div>
           </div>
@@ -23,7 +23,7 @@
               <h5 class="note-sub">79%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 79%; border-radius: 25px; background-color:#e9c46a;">GREAT</div>
+                  style="height: 25px; width: 79%; border-radius: 25px; background-color:rgb(255, 7, 7);">GREAT</div>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@
               <h5 class="note-sub">65%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 55%; border-radius: 25px; background-color:#e9c46a;">MODERATE
+                  style="height: 25px; width: 55%; border-radius: 25px; background-color:rgb(255, 7, 7);">MODERATE
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@
               <h5 class="note-sub">41%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 41%; border-radius: 25px; background-color:#e9c46a;">BASIC</div>
+                  style="height: 25px; width: 41%; border-radius: 25px; background-color:rgb(255, 7, 7);">BASIC</div>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
               <h5 class="note-sub">50%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 50%; border-radius: 25px; background-color:#e9c46a;">MODERATE
+                  style="height: 25px; width: 50%; border-radius: 25px; background-color:rgb(255, 7, 7);">MODERATE
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@
               <h5 class="note-sub">44%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 44%; border-radius: 25px; background-color:#e9c46a;">BASIC</div>
+                  style="height: 25px; width: 44%; border-radius: 25px; background-color:rgb(255, 7, 7);">BASIC</div>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@
               <h5 class="note-sub">63%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 63%; border-radius: 25px; background-color:#e9c46a;">MODERATE
+                  style="height: 25px; width: 63%; border-radius: 25px; background-color:rgb(255, 7, 7);">MODERATE
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@
               <h5 class="note-sub">40%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 40%; border-radius: 25px; background-color:#e9c46a;">BASIC</div>
+                  style="height: 25px; width: 40%; border-radius: 25px; background-color:rgb(255, 7, 7);">BASIC</div>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
               <h5 class="note-sub">80%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 80%; border-radius: 25px; background-color:#e9c46a;">GREAT</div>
+                  style="height: 25px; width: 80%; border-radius: 25px; background-color:rgb(255, 7, 7);">GREAT</div>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
               <h5 class="note-sub">44%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 44%; border-radius: 25px; background-color:#e9c46a;">BASIC</div>
+                  style="height: 25px; width: 44%; border-radius: 25px; background-color:rgb(255, 7, 7);">BASIC</div>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@
               <h5 class="note-sub">94%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 94%; border-radius: 25px; background-color:#e9c46a;">GREAT</div>
+                  style="height: 25px; width: 94%; border-radius: 25px; background-color:rgb(255, 7, 7);">GREAT</div>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@
               <h5 class="note-sub">84%</h5>
               <div class="percentage">
                 <div class="p-bar"
-                  style="height: 25px; width: 84%; border-radius: 25px; background-color:#e9c46a;">GREAT</div>
+                  style="height: 25px; width: 84%; border-radius: 25px; background-color:rgb(255, 7, 7);">GREAT</div>
               </div>
             </div>
           </div>
@@ -174,5 +174,6 @@ export default {
 }
 h1{
   color: white;
+ 
 }
 </style>

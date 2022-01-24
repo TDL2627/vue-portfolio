@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 footer{
-    background-color: black;
+    background-color: rgb(255, 7, 7);
     position: fixed;
     width: 100%;
     bottom: 0;
