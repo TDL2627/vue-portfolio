@@ -42,6 +42,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   text-align: center;
   margin-bottom:40px;
