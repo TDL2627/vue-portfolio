@@ -1,8 +1,8 @@
 <template>
-<nav class="navbar navbar-light bg-light fixed-top">
+<nav class="navbar navbar-light bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Offcanvas navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <a class="navbar-brand" style="color:white;" href="#">Portfolio</a>
+    <button style="background-color:white;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -16,26 +16,25 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#1">About</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#2">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#3">Skills</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#4">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#5">Testimonials</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#6">Contact</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+       
       </div>
     </div>
   </div>
@@ -52,4 +51,5 @@ export default {
 h1{
     color: aqua;
 }
+
 </style>
