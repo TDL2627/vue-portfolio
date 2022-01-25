@@ -17,8 +17,10 @@ footer{
     width: 100%;
     bottom: 0;
     height: 70px;
+    z-index: 27;
 }
 p{
     color: white;
+    margin-top: 20px;
 }
 </style>

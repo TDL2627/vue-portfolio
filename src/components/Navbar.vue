@@ -2,18 +2,27 @@
 <div id="pcnav">
 
   <ul class="nav justify-content-center" >
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled">Disabled</a>
-  </li>
+   <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#one">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#two">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#three">Skills</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#four">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#five">Testimonials</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#six">Contact</a>
+          </li>
 </ul>
 </div>
 
@@ -81,7 +90,12 @@ h1{
  z-index: 27;
  background-color: black;
 }
-
+ a{
+    color: white ;
+  }
+   a:hover{
+    color: red ;
+  }
 @media screen and (max-width: 600px) {
   #mobnav {
     display: initial;
@@ -89,5 +103,7 @@ h1{
   #pcnav{
     display: none;
   }
+ 
 }
 </style>
+// <a target="_blank" href="https://icons8.com/icon/sC7I7UBvulCt/a-button-(blood-type)">A Button (Blood Type)</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
