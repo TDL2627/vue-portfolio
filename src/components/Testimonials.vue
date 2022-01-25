@@ -131,7 +131,7 @@ export default {
 
 <style scoped>
 #five{
-  background-color: black;
+  background-color: gray;
   height: 90vh;
 }
 h1{

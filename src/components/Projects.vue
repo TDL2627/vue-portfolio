@@ -285,7 +285,7 @@ export default {
 
 <style scoped>
 #four{
-  background-color: grey;
+  background-color: black;
   height: 90vh;
 }
 .carousel-inner{

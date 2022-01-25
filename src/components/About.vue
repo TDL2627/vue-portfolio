@@ -49,15 +49,15 @@ export default {
 
 <style scoped>
 #one{
-  background-color: black;
+  background-color: grey;
   height: 90vh;
 }
 h1,h3,p,h5{
-  color: white;
+  color: black;
 }
 #name{
   color: red;
-  text-decoration: underline white;
+  text-decoration: underline black;
 }
 .buit{
   background-color: red;

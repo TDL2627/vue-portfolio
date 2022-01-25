@@ -88,7 +88,7 @@ h1{
  position: fixed;
  width: 100%;
  z-index: 27;
- background-color: black;
+ background-color: gray;
 }
  a{
     color: white ;

@@ -169,7 +169,7 @@ export default {
 
 <style scoped>
 #three{
-  background-color: black;
+  background-color: gray;
   height: 90vh;
 }
 h1{
