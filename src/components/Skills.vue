@@ -176,4 +176,7 @@ h1{
   color: white;
  
 }
+*{
+  color:white;
+}
 </style>

@@ -23,7 +23,7 @@
           </div>
           <div class="col-lg-6" data-aos="fade-left">
             <br>
-            <h4 class="cnthead" style="color: #e9c46a;">Address</h4>
+            <h4 class="cnthead" >Address</h4>
             <br>
             <p class="contact-info1">42 Bongo Cresent</p>
             <p class="contact-info1">Silvertown</p>
