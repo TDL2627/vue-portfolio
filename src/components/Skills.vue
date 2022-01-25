@@ -1,9 +1,9 @@
 <template>
 <div id="three">
     <h1 class="heading">Skills</h1>
-      <div class="container">
+      <div class="container cont">
         <div class="row">
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled ">
             <div>
               <img src="https://img.icons8.com/ios/50/000000/html-5--v1.png" /> <br>
               <h5 class="note-head">HTML</h5>
@@ -15,7 +15,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled" >
             <div class="note" data-aos="fade-down-left">
               <img src="https://img.icons8.com/ios/50/000000/css3.png" /><br>
               <h5 class="note-head">CSS</h5>
@@ -27,7 +27,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled" >
             <div class="note" data-aos="fade-down-right">
               <img src="https://img.icons8.com/ios/50/000000/javascript-logo.png" /> <br>
               <h5 class="note-head">Javascript</h5>
@@ -40,7 +40,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled" >
             <div class="note" data-aos="fade-down-left">
               <img src="https://img.icons8.com/windows/50/000000/node-js.png" /> <br>
               <h5 class="note-head">NodeJs</h5>
@@ -52,7 +52,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled" >
             <div class="note" data-aos="fade-down-right">
               <img src="https://img.icons8.com/ios/50/000000/python--v1.png" /> <br>
               <h5 class="note-head">Python</h5>
@@ -65,7 +65,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled" >
             <div class="note" data-aos="fade-down-left">
               <img src="https://img.icons8.com/ios/50/000000/php-logo.png" /> <br>
               <h5 class="note-head">PHP</h5>
@@ -77,7 +77,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled ">
             <div class="note" data-aos="fade-down-right">
               <img src="https://img.icons8.com/ios/50/000000/angularjs.png" />
               <br>
@@ -91,7 +91,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled ">
             <div class="note" data-aos="fade-down-left">
 
               <img src="https://img.icons8.com/ios/50/000000/typescript.png" />
@@ -104,10 +104,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled ">
             <div class="note" data-aos="fade-down-right">
 
-           <img src="https://img.icons8.com/ios/50/000000/typescript.png" />
+           <img style="height:50px;" src="../assets/icons/firebase.png" />
               <br>
               <h5 class="note-head">FireBase</h5>
               <h5 class="note-sub">80%</h5>
@@ -117,7 +117,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled ">
             <div class="note" data-aos="fade-down-left">
 
               <img src="https://img.icons8.com/ios/50/000000/mysql-logo.png" />
@@ -130,7 +130,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled ">
             <div class="note" data-aos="fade-down-right">
               <img src="https://img.icons8.com/ios/50/000000/git.png" />
               <br>
@@ -143,11 +143,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6 skilled" >
             <div class="note" data-aos="fade-down-left">
               <img src="https://img.icons8.com/windows/50/000000/bootstrap.png" /> <br>
               <h5 class="note-head">BOOTSTRAP</h5>
-
               <h5 class="note-sub">84%</h5>
               <div class="percentage">
                 <div class="p-bar"
@@ -178,5 +177,19 @@ h1{
 }
 *{
   color:white;
+}
+.skilled{
+  border: solid black 2px;
+  border-radius: 25px;
+  margin: 5px;
+  width:250px;
+}
+.percentage{
+  border: solid black 1px;
+  border-radius: 25px;
+  margin-bottom: 5px;
+}
+.cont{
+  margin-left:10%;
 }
 </style>
