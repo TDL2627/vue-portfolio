@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-8">
             <h3> I am  </h3>
-            <h3>Ashley Kannemeyer</h3>
+            <h3 id="name">Ashley Kannemeyer</h3>
             <h3>Full stack web developer </h3>
             <br>
             <p>I am a smart, hard working person and very eager to learn.I love solving
@@ -17,22 +17,22 @@
             <p >I am well experienced in coding and able to work well with others.</p>
           </div>
           <div class="col-lg-4">
-            <h5>Name : </h5>
-            <h5>Ashley Kannemeyer</h5>
+            <h5>Name : Ashley Kannemeyer </h5>
             <hr>
-            <h5>Email :</h5>
-            <h5>ashleykannemyer2@gmail.com</h5>
+            <h5>Email: ashleykannemeyer2@gmail.com</h5>
+           
             <hr>
-            <h5>Age :</h5>
-            <h5>21</h5>
+            <h5>Age : 21</h5>
+           
             <hr>
-            <h5>From :</h5>
-            <h5>Cape Town</h5>
+            <h5>From : Cape Town</h5>
+          
             <br>
             <br>
-            <a id="downloadcv"  href="/CV/Ashley's Resume.pdf" download>Download CV</a>
+            <a id="downloadcv" class="buit"  href="/CV/Ashley's Resume.pdf" download>Download CV</a>
             <br><br>
           </div>
+     
 
         </div>
       </div>
@@ -54,6 +54,17 @@ export default {
 }
 h1,h3,p,h5{
   color: white;
+}
+#name{
+  color: red;
+  text-decoration: underline white;
+}
+.buit{
+  background-color: red;
+  border-radius: 25px;
+  color:white;
+  text-decoration: none;
+  padding: 10px;
 }
 
 </style>

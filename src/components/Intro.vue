@@ -1,7 +1,6 @@
 <template>
 <div>
- 
- <h1 class="heading">This is the intro</h1>
+ <h1 class="heading">Welcome to my portfolio</h1>
 </div>
  
 </template>
@@ -21,6 +20,8 @@ div{
 }
 h1{
     color:white;
+    text-decoration: underline red;
     padding-top:300px;
+    font-size: 50px;
 }
 </style>

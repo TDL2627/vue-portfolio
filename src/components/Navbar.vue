@@ -95,6 +95,7 @@ h1{
   }
    a:hover{
     color: red ;
+    text-decoration: underline red ;
   }
 @media screen and (max-width: 600px) {
   #mobnav {

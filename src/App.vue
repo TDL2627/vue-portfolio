@@ -45,13 +45,15 @@ export default {
 
 #app {
   text-align: center;
-  margin-bottom:40px;
-  
+  margin-bottom:0px;
+  overflow-y: hidden;
 }
 .heading{
   padding-top:50px;
+  text-decoration: underline red;
 }
 *{
   font-family: 'PT Serif', serif;
+
 }
 </style>
