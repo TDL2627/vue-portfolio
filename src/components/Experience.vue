@@ -56,8 +56,8 @@ h1{
   font-size:40px;
 }
 #two{
-  background-color: black;
-  height: 90vh;
+  background-color: rgb(59, 59, 59);
+  height: 100vh;
 }
 *{
   color: white;

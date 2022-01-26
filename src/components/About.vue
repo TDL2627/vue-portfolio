@@ -50,7 +50,7 @@ export default {
 <style scoped>
 #one{
   background-color: grey;
-  height: 90vh;
+  height: 100vh;
 }
 h1,h3,p,h5{
   color: black;

@@ -54,10 +54,23 @@ export default {
 
 <style scoped>
 #six{
-  background-color: grey;
-  height: 90vh;
+  background-color: rgb(59, 59, 59);
+  height: 100vh;
 }
-h1{
+.buit{
+  background-color: black;
+  color: white;
+ border-radius: 25px;
+ padding: 10px;
+ margin: 10px;
+}
+.buit:hover{
+  background-color: red;
+  color: white;
+ border-radius: 25px;
+}
+
+h1,h4,p{
   color: white;
 }
 </style>
