@@ -47,6 +47,8 @@ export default {
   text-align: center;
   margin-bottom:0px;
   overflow-y: hidden;
+  overflow-x: hidden; 
+  width: 100%;
 }
 .heading{
   padding-top:50px;
@@ -54,6 +56,5 @@ export default {
 }
 *{
   font-family: 'PT Serif', serif;
-
 }
 </style>

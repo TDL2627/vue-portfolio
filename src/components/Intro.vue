@@ -16,7 +16,7 @@ div{
   background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/people/bg-me.jpeg");
    background-repeat: none;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 h1{
     color:white;

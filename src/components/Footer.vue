@@ -13,14 +13,15 @@ export default {
 <style scoped>
 footer{
     background-color: rgb(255, 7, 7);
-    position: fixed;
+
     width: 100%;
     bottom: 0;
     height: 70px;
     z-index: 27;
+    margin: 0;
 }
 p{
     color: white;
-    margin-top: 20px;
+   padding: 20px;
 }
 </style>
