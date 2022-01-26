@@ -89,13 +89,19 @@ h1{
  width: 100%;
  z-index: 27;
  background-color: gray;
+ padding: 10px;
+
 }
  a{
     color: white ;
+    background-color:  rgb(59, 59, 59);
+    border-radius: 25px;
+     margin-right:5px;
   }
    a:hover{
     color: red ;
     text-decoration: underline red ;
+    background-color: black;
   }
 @media screen and (max-width: 600px) {
   #mobnav {

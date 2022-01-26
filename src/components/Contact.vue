@@ -17,7 +17,7 @@
               <div class="col-lg-6 areatxt"> <textarea name="messages" id="areatxt" cols="30" rows="10"
                   placeholder="Type your message" required></textarea> </div>
               <div class="col-lg-6"> <button class="send-but buit" type="submit">Send</button>
-                <button style="color: #000000;" class="reset-but buit" type="reset" value="Reset">Reset</button>
+                <button  class="reset-but buit" type="reset" value="Reset">Reset</button>
               </div>
             </form>
           </div>
@@ -63,6 +63,7 @@ export default {
  border-radius: 25px;
  padding: 10px;
  margin: 10px;
+ border: none;
 }
 .buit:hover{
   background-color: red;
